@@ -14,7 +14,10 @@ export default {
       },
       animation: {
         modalEntry: 'modalEntry 0.2s ease-out'
-      }
+      },
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],
