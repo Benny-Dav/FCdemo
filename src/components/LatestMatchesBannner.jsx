@@ -29,12 +29,12 @@ const LatestMatchesBanner = () => {
               ></div>
       
               {/* content */}
-              <div className="z-10 flex justify-between gap-4 items-center">
+              <div className="z-10 grid grid-cols-3 gap-2">
                 <div className="flex flex-col justify-center items-center">
-                  <img src={fa5} alt="" className="w-14 lg:w-18 " />
+                  <img src={fa5} alt="" className="w-14 " />
                   <p className="text-sm font-bold text-[#FF6F00]">Atlantis FC</p>
                 </div>
-                <div className="flex justify-center items-center text-center ml-4 sm:ml-8">
+                <div className="flex justify-center items-center ml-4 ">
                   <h2 className="font-extrabold text-2xl sm:text-3xl">1 - 1</h2>
                 </div>
                 <div className="flex flex-col justify-center items-center">
@@ -56,12 +56,12 @@ const LatestMatchesBanner = () => {
               ></div>
       
               {/* content */}
-              <div className="z-10 flex justify-between gap-4 items-center">
+              <div className="z-10 grid grid-cols-3 gap-2 ">
                 <div className="flex flex-col justify-center items-center">
                   <img src={logo} alt="" className="w-20 " />
                   <p className="text-sm font-bold text-[#FF6F00]">Socca FC</p>
                 </div>
-                <div className="flex justify-center items-center text-center ml-4 sm:ml-8">
+                <div className="flex justify-center items-center ml-4 ">
                   <h2 className="font-extrabold text-2xl sm:text-3xl">3 - 2</h2>
                 </div>
                 <div className="flex flex-col justify-center items-center">
