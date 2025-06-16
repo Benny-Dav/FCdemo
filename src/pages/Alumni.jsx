@@ -98,7 +98,7 @@ const Alumni = () => {
 
       {/* Alumni Grid */}
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {alumni.map((person) => (
             <div key={person.id} className="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square">

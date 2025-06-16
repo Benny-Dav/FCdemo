@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 
 const UpcomingMatch = () => {
     return (
-        <section className="relative max-h-[80vh] bg-bottom-center bg-cover py-8" style={{ backgroundAttachment:"fixed", backgroundImage: `url(https://images.unsplash.com/photo-1522778526097-ce0a22ceb253?w=12000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhZGl1bXxlbnwwfHwwfHx8MA%3D%3D)` }}>
+        <section className="py-8 relative max-h-[80vh] bg-bottom-center bg-cover px-4 sm:px-6 lg:px-16 " style={{ backgroundAttachment:"fixed", backgroundImage: `url(https://images.unsplash.com/photo-1522778526097-ce0a22ceb253?w=12000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhZGl1bXxlbnwwfHwwfHx8MA%3D%3D)` }}>
             <div className="absolute inset-0 bg-black/80 z-0">
 
             </div>
@@ -25,9 +25,9 @@ const UpcomingMatch = () => {
 
                     {/* card content */}
                     {/* teamA */}
-                    <div className='z-10 flex justify-between gap-4 items-center '>
+                    <div className='z-10 grid grid-cols-3 gap-4 items-center '>
                         <div className=' flex flex-col justify-center items-center '>
-                            <img src={fa5} alt="" className="w-18" />
+                            <img src={fa5} alt="" className="w-14" />
                             <p className="text-sm font-bold text-[#FF6F00]">Atlantis FC</p>
                         </div>
                         {/* score */}
@@ -38,7 +38,7 @@ const UpcomingMatch = () => {
                         </div>
                         {/* teamB */}
                         <div className='flex flex-col justify-center items-center'>
-                            <img src={logo} alt="" className="w-30" />
+                            <img src={logo} alt="" className="w-20" />
                             <p className="text-sm font-bold text-[#FF6F00]">Socca S.C</p>
                         </div>
                     </div>
